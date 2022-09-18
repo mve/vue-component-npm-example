@@ -1,7 +1,7 @@
 {
   "name": "vue-component-npm-example",
   "private": true,
-  "version": "0.0.0",
+  "version": "2.0.0",
   "type": "module",
   "files": ["dist"],
   "main": "./dist/vue-component-npm-example.umd.cjs",
