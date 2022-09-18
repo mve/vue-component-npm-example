@@ -1,14 +1,7 @@
-<template>
-  <VueComponentNpmExample text="Button Text"/>
-</template>
-
-<script>
-import VueComponentNpmExample from './components/VueComponentNpmExample.vue'
-
-export default {
-  name: 'App',
-  components: {
-    VueComponentNpmExample
-  }
-}
+<script setup lang="ts">
+import VueComponentNpmExample from '../lib/VueComponentNpmExample.vue'
 </script>
+
+<template>
+  <VueComponentNpmExample msg="Vue Component npm Example" />
+</template>
